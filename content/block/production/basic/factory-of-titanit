@@ -1,0 +1,36 @@
+{
+  "name": "Titanit Kiln",
+  "description": "Melts titanium and plastanium to create titanit.",
+  "details": "originally \"Factory of Titanit\" from old smoa",
+  "hideDetails": false,
+  "researchCostMultiplier": 0.1,
+  "drawer": {
+    "type": "DrawFlame",
+    "flameColor": "00AB7DFF"
+  },
+  "type": "GenericCrafter",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 60,
+  "craftEffect": "pulverize",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 1.9,
+    "items": {
+      "items": [
+        "titanium/1",
+        "plastanium/1"
+      ]
+    }
+  },
+  "requirements": [
+    "copper/90",
+    "titanium/80",
+    "plastanium/60"
+  ],
+  "category": "crafting",
+  "research": "plastanium-compressor",
+  "outputItem": "titanit/2"
+}
