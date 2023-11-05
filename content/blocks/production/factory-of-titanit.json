@@ -4,15 +4,18 @@
   "details": "originally \"Factory of Titanit\" from old smoa",
   "hideDetails": false,
   "researchCostMultiplier": 0.1,
-  "drawers": [
-    {
-      "type": "DrawDefault"
-    },
-    {
-      "type": "DrawFlame",
-      "flameColor": "00AB7DFF"
-    }
-  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "00AB7DFF"
+      }
+    ]
+  },
   "type": "GenericCrafter",
   "size": 2,
   "hasPower": true,
