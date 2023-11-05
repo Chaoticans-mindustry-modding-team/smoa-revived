@@ -5,8 +5,13 @@
   "hideDetails": false,
   "researchCostMultiplier": 0.1,
   "drawer": {
+  {
+    "type": "DrawDefault"
+  },
+  {
     "type": "DrawFlame",
     "flameColor": "00AB7DFF"
+    },
   },
   "type": "GenericCrafter",
   "size": 2,
