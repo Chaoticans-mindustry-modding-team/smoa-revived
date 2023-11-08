@@ -1,0 +1,92 @@
+{
+  "localizedName": "Dusk",
+  "description": "[orange]",
+  "research": {
+    "requirements": [
+      "silicon/100",
+      "spore-pod/50"
+    ],
+    "parent": "eclipse"
+  },
+  "speed": 0.38,
+  "accel": 0.03,
+  "drag": 0.01,
+  "flying": true,
+  "health": 97100,
+  "armor": 1.5,
+  "engineOffset": 38,
+  "engineSize": 46,
+  "TargetAir": true,
+  "commandLimit": 5,
+  "circleTarget": false,
+  "hitSize": 63,
+  "weapons": [
+    {
+      "name": "heavy-flak-gunner",
+      "shootCone": 30,
+      "mirror": true,
+      "alternate": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 2,
+      "x": 19,
+      "y": 8,
+      "reload": 37,
+      "shootSound": "shootBig",
+      "recoil": 2.5,
+      "bullet": {
+        "type": "BasicBulletType",
+        "hitEffect": "flakExplosion",
+        "color": "bf92f9ff",
+        "damage": 29,
+        "impact": true,
+        "keepVelocity": "false",
+        "speed": 3,
+        "lifetime": 90,
+        "status": "blasted",
+        "statusDuration": 100,
+        "splashDamageRadius": 17,
+        "splashDamage": 79,
+        "width": 9,
+        "height": 12,
+        "shrinkX": 0,
+        "shrinkY": 0
+      }
+    },
+    {
+      "name": "barrage-gunner",
+      "shootCone": 30,
+      "mirror": true,
+      "alternate": false,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 1,
+      "x": 20,
+      "y": -2,
+      "reload": 12,
+      "shootSound": "shootSnap",
+      "recoil": 3,
+      "bullet": {
+        "type": "BasicBulletType",
+        "hitEffect": "blastExplosion",
+        "color": "bf92f9ff",
+        "damage": 14,
+        "impact": true,
+        "keepVelocity": "false",
+        "speed": 4,
+        "lifetime": 80,
+        "status": "blasted",
+        "statusDuration": 56,
+        "splashDamageRadius": 12,
+        "splashDamage": 79,
+        "width": 7,
+        "height": 8,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "trailColor": "f9c27aff",
+        "trailLength": 42,
+        "trailWdith": 3.5
+      }
+    }
+  ]
+}
