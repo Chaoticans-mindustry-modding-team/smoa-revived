@@ -1,0 +1,13 @@
+{
+  "name": "Large Titanit Wall",
+  "description": "Protects structures from enemy projectiles.",
+  "type": "Wall",
+  "size": 2,
+  "health": 3040,
+  "requirements": [
+    "titanit/32",
+    "lead/24"
+  ],
+  "category": "defense",
+  "research": "titanit-wall"
+}
