@@ -1,0 +1,13 @@
+{
+  "name": "Titanit Wall",
+  "description": "Protects structures from enemy projectiles.",
+  "type": "Wall",
+  "health": 760,
+  "flashHit": true,
+  "requirements": [
+    "titanit/8",
+    "lead/6"
+  ],
+  "category": "defense",
+  "research": "plastanium-wall"
+}
