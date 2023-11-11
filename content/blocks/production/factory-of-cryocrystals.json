@@ -23,7 +23,7 @@
       }
     ]
   },
-  "outputLiquid": "cryocrystal/3",
+  "outputItem": "cryocrystal/3",
   "consumes": {
     "power": 5.7,
     "liquids": [
