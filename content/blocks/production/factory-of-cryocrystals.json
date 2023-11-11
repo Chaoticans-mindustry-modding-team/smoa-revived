@@ -1,0 +1,42 @@
+{
+  "name": "Superfreezer",
+  "description": "Uses large amounts of power to superfreeze cryofluid into cryocrystals.",
+  "type": "GenericCrafter",
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 25,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "cryofluid"
+      }
+    ]
+  },
+  "outputLiquid": "cryocrystal/3",
+  "consumes": {
+    "power": 5.7,
+    "liquids": [
+      "cryofluid/2"
+    ]
+  },
+  "requirements": [
+    "graphite/125",
+    "silicon/165",
+    "titanium/115",
+    "thorium/60",
+    "plastanium/90"
+  ],
+  "category": "crafting",
+  "research": "cryofluid-mixer"
+}
