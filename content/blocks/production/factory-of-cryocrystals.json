@@ -7,6 +7,15 @@
   "hasPower": true,
   "hasLiquids": true,
   "liquidCapacity": 25,
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 6,
+    "colorFrom": "ffffffff",
+    "colorTo": "59f2fdff",
+    "length": 8,
+    "sizeInterp": "slope",
+    "region": "smoa-r-starbullet"
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -15,11 +24,12 @@
         "suffix": "-bottom"
       },
       {
-        "type": "DrawDefault"
+        "type": "DrawLiquidTile",
+        "drawLiquid": "cryofluid",
+        "alpha": 1.0
       },
       {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "cryofluid"
+        "type": "DrawDefault"
       }
     ]
   },
