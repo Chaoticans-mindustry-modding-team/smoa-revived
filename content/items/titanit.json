@@ -2,6 +2,7 @@
   "name": "Titanit",
   "description": "A hard alloy used in defense and as heavy ammo.",
   "color": 276468,
+  "cost": 4,
   "research": {
     "parent": "titanium"
   },
