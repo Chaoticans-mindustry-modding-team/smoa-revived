@@ -1,0 +1,11 @@
+{
+  "name": "Cryocrystal",
+  "description": "An unimaginably cold version of cryofluid. Handle with care. This crystal contains enough explosive energy to destroy the own factory it is created in.",
+  "color": "52dfffff",
+  "explosiveness": 4.7,
+  "cost": 9,
+  "research": {
+    "parent": "titanium"
+  },
+  "hardness": 0.1
+}
