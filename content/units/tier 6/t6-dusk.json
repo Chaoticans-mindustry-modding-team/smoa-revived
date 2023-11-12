@@ -19,15 +19,16 @@
   "speed": 0.47,
   "accel": 0.03,
   "drag": 0.01,
+  "rotateSpeed": 0.76,
   "flying": true,
   "health": 97100,
   "armor": 24,
-  "engineOffset": 38,
-  "engineSize": 12.9,
+  "engineOffset": 41,
+  "engineSize": 13.9,
   "TargetAir": true,
   "commandLimit": 5,
   "circleTarget": false,
-  "hitSize": 63,
+  "hitSize": 66,
   "lowAltitude": true,
   "weapons": [
     {
@@ -40,7 +41,7 @@
       "rotateSpeed": 2,
       "x": 23,
       "y": -14,
-      "reload": 54,
+      "reload": 21,
       "shootSound": "shootBig",
       "recoil": 2.5,
       "inaccuracy": 2,
@@ -55,7 +56,7 @@
         "type": "BasicBulletType",
         "hitEffect": "flakExplosionBig",
         "color": "bf92f9ff",
-        "damage": 29,
+        "damage": 296,
         "shootEffect": {
           "type": "MultiEffect",
           "effects": [
@@ -63,6 +64,7 @@
             "shootBig2"
           ]
         },
+        "knockback": 4,
         "impact": true,
         "speed": 9,
         "pierce": true,
@@ -94,8 +96,8 @@
       "alternate": true,
       "top": true,
       "rotate": false,
-      "x": 17,
-      "y": 49,
+      "x": 9,
+      "y": 26,
       "layerOffset": -0.1,
       "reload": 4.5,
       "shootSound": "shootSnap",
@@ -109,7 +111,7 @@
         "type": "BasicBulletType",
         "hitEffect": "blastExplosion",
         "color": "bf92f9ff",
-        "damage": 23,
+        "damage": 34,
         "shootEffect": {
           "type": "MultiEffect",
           "effects": [
@@ -176,16 +178,16 @@
         "status": "blasted",
         "statusDuration": 56,
         "splashDamageRadius": 13,
-        "splashDamage": 29,
-        "width": 7,
-        "height": 7,
-        "shrinkX": 0,
-        "shrinkY": 1,
+        "splashDamage": 38,
+        "width": 9,
+        "height": 9,
         "sprite": "shell",
         "trailParam": 5,
         "trailLength": 42,
         "trailWidth": 3.5,
-        "despawnEffect": "hitBulletSmall"
+        "despawnEffect": "hitBulletSmall",
+        "hitSound": "explosion",
+        "despawnSound": "explosion"
       }
     }
   ]
