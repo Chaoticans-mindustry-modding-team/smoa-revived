@@ -54,7 +54,7 @@
       "shake": 3,
       "shoot": {
         "shots": 3,
-        "shotDelay": 6
+        "shotDelay": 5
       },
       "bullet": {
         "type": "BasicBulletType",
@@ -106,7 +106,7 @@
         "type": "BasicBulletType",
         "hitEffect": "blastExplosion",
         "color": "bf92f9ff",
-        "damage": 14,
+        "damage": 23,
         "impact": true,
         "keepVelocity": false,
         "speed": 4,
@@ -135,9 +135,13 @@
       "rotateSpeed": 1,
       "x": 27,
       "y": 19,
-      "reload": 6,
+      "reload": 27,
       "shootSound": "shootSnap",
       "recoil": 3,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 4
+      },
       "inaccuracy": 5,
       "shake": 1.45,
       "shootEffect": "shootBig",
@@ -145,24 +149,24 @@
       "ejectEffect": "casing2",
       "bullet": {
         "type": "BasicBulletType",
-        "hitEffect": "blastExplosion",
+        "hitEffect": "flakExplosionBig",
         "color": "bf92f9ff",
-        "damage": 14,
+        "damage": 67,
         "impact": true,
-        "keepVelocity": "false",
+        "keepVelocity": false,
         "speed": 4,
         "lifetime": 127,
         "status": "blasted",
         "statusDuration": 56,
-        "splashDamageRadius": 12,
+        "splashDamageRadius": 21,
         "splashDamage": 64,
-        "width": 7,
-        "height": 9,
+        "width": 9,
+        "height": 12,
         "shrinkX": 0,
         "shrinkY": 0,
         "trailColor": "f9c27aff",
         "trailLength": 42,
-        "trailWdith": 4.5,
+        "trailWdith": 6,
         "despawnEffect": "none"
       }
     }
