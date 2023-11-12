@@ -1,6 +1,6 @@
 {
   "localizedName": "Dusk",
-  "description": "[orange]",
+  "description": "[orange]Fires large clusters of explosive flak at medium-distance enemies.",
   "research": {
     "requirements": [
       "silicon/71200",
@@ -27,6 +27,7 @@
   "circleTarget": false,
   "hitSize": 63,
   "lowAltitude": true,
+  "singleTarget": true,
   "weapons": [
     {
       "name": "kinetic-missiles",
@@ -42,13 +43,6 @@
       "shootSound": "shootBig",
       "recoil": 2.5,
       "inaccuracy": 2,
-      "shootEffect": {
-        "type": "MultiEffect",
-        "effects": [
-          "shockwave",
-          "shootBig2"
-        ]
-      },
       "smokeEffect": "shootBigSmoke",
       "ejectEffect": "casing3",
       "shake": 3,
@@ -61,6 +55,13 @@
         "hitEffect": "flakExplosionBig",
         "color": "bf92f9ff",
         "damage": 29,
+        "shootEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            "shockwave",
+            "shootBig2"
+          ]
+        },
         "impact": true,
         "speed": 9,
         "pierce": true,
@@ -71,14 +72,15 @@
         "statusDuration": 100,
         "splashDamageRadius": 17,
         "splashDamage": 120,
-        "width": 20,
-        "height": 22,
+        "width": 17,
+        "height": 19,
         "shrinkX": 0,
         "shrinkY": 0,
-        "trailColor": "f9c27aff",
+        "trailParam": 5,
         "trailLength": 53,
-        "trailWdith": 10,
+        "trailWdith": 9.5,
         "recoil": 0.03,
+        "sprite": "missile-large",
         "hitSound": "bang",
         "despawnSound": "bang",
         "despawnEffect": "none"
@@ -93,13 +95,12 @@
       "rotate": true,
       "rotateSpeed": 1,
       "x": 17,
-      "y": 38,
+      "y": 41,
       "reload": 4.5,
       "shootSound": "shootSnap",
       "recoil": 3,
       "inaccuracy": 5,
       "shake": 1,
-      "shootEffect": "shootBig",
       "smokeEffect": "shootBigSmoke",
       "ejectEffect": "casing2",
       "bullet": {
@@ -107,10 +108,11 @@
         "hitEffect": "blastExplosion",
         "color": "bf92f9ff",
         "damage": 23,
+        "shootEffect": "shootBig",
         "impact": true,
         "keepVelocity": false,
-        "speed": 4,
-        "lifetime": 127,
+        "speed": 6.5,
+        "lifetime": 45,
         "status": "blasted",
         "statusDuration": 56,
         "splashDamageRadius": 12,
@@ -119,7 +121,7 @@
         "height": 9,
         "shrinkX": 0,
         "shrinkY": 0,
-        "trailColor": "f9c27aff",
+        "trailParam": 5,
         "trailLength": 42,
         "trailWdith": 4.5,
         "despawnEffect": "none"
@@ -133,9 +135,9 @@
       "top": true,
       "rotate": true,
       "rotateSpeed": 1,
-      "x": 27,
-      "y": 19,
-      "reload": 27,
+      "x": 22,
+      "y": -6,
+      "reload": 14,
       "shootSound": "shootSnap",
       "recoil": 3,
       "shoot": {
@@ -144,7 +146,6 @@
       },
       "inaccuracy": 5,
       "shake": 1.45,
-      "shootEffect": "shootBig",
       "smokeEffect": "shootBigSmoke",
       "ejectEffect": "casing2",
       "bullet": {
@@ -152,10 +153,11 @@
         "hitEffect": "flakExplosionBig",
         "color": "bf92f9ff",
         "damage": 67,
+        "shootEffect": "shootBig",
         "impact": true,
         "keepVelocity": false,
-        "speed": 4,
-        "lifetime": 127,
+        "speed": 6.5,
+        "lifetime": 45,
         "status": "blasted",
         "statusDuration": 56,
         "splashDamageRadius": 21,
@@ -164,7 +166,7 @@
         "height": 12,
         "shrinkX": 0,
         "shrinkY": 0,
-        "trailColor": "f9c27aff",
+        "trailParam": 5,
         "trailLength": 42,
         "trailWdith": 6,
         "despawnEffect": "none"
