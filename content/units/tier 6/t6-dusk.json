@@ -98,7 +98,7 @@
       "x": 17,
       "y": 44,
       "layerOffset": -0.1,
-      "reload": 12,
+      "reload": 4.5,
       "shootSound": "shootSnap",
       "recoil": 3,
       "inaccuracy": 5,
@@ -115,13 +115,13 @@
           "type": "MultiEffect",
           "effects": [
             "shootBig",
-            "flakExplosion"
+            "hitBulletSmall"
           ]
         },
         "impact": true,
         "keepVelocity": false,
-        "speed": 4,
-        "lifetime": 60,
+        "speed": 6.5,
+        "lifetime": 45,
         "status": "blasted",
         "statusDuration": 56,
         "splashDamageRadius": 12,
@@ -130,7 +130,6 @@
         "height": 9,
         "shrinkX": 0,
         "shrinkY": 0,
-        "sprite": "shell",
         "trailParam": 5,
         "trailLength": 42,
         "trailWdith": 4.5,
@@ -164,11 +163,17 @@
         "hitEffect": "flakExplosionBig",
         "color": "bf92f9ff",
         "damage": 46,
-        "shootEffect": "shootBig",
+        "shootEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            "shootBig",
+            "flakExplosion"
+          ]
+        },
         "impact": true,
         "keepVelocity": false,
-        "speed": 6.5,
-        "lifetime": 45,
+        "speed": 3.8,
+        "lifetime": 75,
         "status": "blasted",
         "statusDuration": 56,
         "splashDamageRadius": 37,
@@ -177,6 +182,7 @@
         "height": 14,
         "shrinkX": 4,
         "shrinkY": 0,
+        "sprite": "shell",
         "trailParam": 5,
         "trailLength": 42,
         "trailWidth": 6,
