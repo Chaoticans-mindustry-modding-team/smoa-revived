@@ -1,6 +1,6 @@
 {
   "localizedName": "Dusk",
-  "description": "[orange]Fires large clusters of explosive flak at medium-distance enemies.",
+  "description": "[orange]Fires large clusters of explosive flak and artillery at medium-distance enemies.",
   "details": "Rule the skies and destroy the land.",
   "hideDetails": false,
   "research": {
@@ -93,14 +93,13 @@
       "mirror": true,
       "alternate": true,
       "top": true,
-      "rotate": true,
-      "rotateSpeed": 4,
+      "rotate": false,
       "x": 17,
-      "y": 44,
+      "y": 49,
       "layerOffset": -0.1,
       "reload": 4.5,
       "shootSound": "shootSnap",
-      "recoil": 3,
+      "recoil": 2,
       "inaccuracy": 5,
       "shake": 1,
       "velocityRnd": 0.8
@@ -149,18 +148,18 @@
       "reload": 14,
       "shootSound": "artillery",
       "recoil": 3,
-      "velocityRnd": 1.4,
+      "velocityRnd": 0.3,
       "shoot": {
         "shots": 3,
-        "shotDelay": 4
+        "shotDelay": 0
       },
-      "inaccuracy": 5,
+      "inaccuracy": 8,
       "shake": 1.45,
       "smokeEffect": "shootBigSmoke",
       "ejectEffect": "casing2",
       "bullet": {
         "type": "BasicBulletType",
-        "hitEffect": "flakExplosionBig",
+        "hitEffect": "flakExplosion",
         "color": "bf92f9ff",
         "damage": 46,
         "shootEffect": {
@@ -172,20 +171,20 @@
         },
         "impact": true,
         "keepVelocity": false,
-        "speed": 3.8,
+        "speed": 5,
         "lifetime": 75,
         "status": "blasted",
         "statusDuration": 56,
-        "splashDamageRadius": 37,
-        "splashDamage": 70,
-        "width": 14,
-        "height": 14,
-        "shrinkX": 4,
-        "shrinkY": 0,
+        "splashDamageRadius": 13,
+        "splashDamage": 29,
+        "width": 7,
+        "height": 7,
+        "shrinkX": 0,
+        "shrinkY": 1,
         "sprite": "shell",
         "trailParam": 5,
         "trailLength": 42,
-        "trailWidth": 6,
+        "trailWidth": 3.5,
         "despawnEffect": "hitBulletSmall"
       }
     }
