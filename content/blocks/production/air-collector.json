@@ -1,0 +1,36 @@
+{
+  "name": "Air Collector",
+  "description": "Collects air from, you guessed it, the air, by using diffusion.",
+  "type": "GenericCrafter",
+  "size": 2,
+  "craftTime": 50,
+  "hasPower": false,
+  "hasLiquids": true,
+  "liquidCapacity": 64,
+  "craftEffect": "none"
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "air",
+        "alpha": 1.0
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "outputLiquid": "air/0.03",
+  "requirements": [
+    "copper/76",
+    "silicon/147",
+    "titanium/100"
+  ],
+  "category": "crafting",
+  "research": "cultivator"
+}
