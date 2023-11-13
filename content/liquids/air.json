@@ -1,0 +1,14 @@
+{
+  "name": "Air",
+  "description": "You breathe it. Wait, mechs don't breathe air. Wait, do they, what do they need air for? Machines don't breathe air. The plants need air-wait, they need carbon dioxide not air, am I crazy or am I getting confused? No, I can confidently say plants need air. Ove-WAIT, plants DON'T NEED AIR. Wait, or do they? Mechs don't need air. Or do they? *vsauce music* Wait, wgat was I talknig about again, am I talking to myself, or am I going insane? probably both. Oh, yeah, about the purpose of air. Used in various factories as a movement catalyst or combustor.",
+  "temperature": 0.5,
+  "viscosity": 0.5,
+  "flammability": 0.1
+  "heatCapacity": 0.5
+  "coolant": false,
+  "gas": true,
+  "color": "FFFFFF22",
+  "barColor": "FFFFFF22",
+  "incinerable": false,
+  "research": "water"
+}
