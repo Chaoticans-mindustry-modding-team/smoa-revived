@@ -37,7 +37,7 @@
   "consumes": {
     "power": 5.7,
     "liquids": [
-      "cryofluid/2"
+      "cryofluid/0.3"
     ]
   },
   "requirements": [
