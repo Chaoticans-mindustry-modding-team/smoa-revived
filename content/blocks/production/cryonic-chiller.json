@@ -5,10 +5,12 @@
   "hideDetails": false,
   "type": "GenericCrafter",
   "size": 2,
-  "craftTime": 180,
+  "craftTime": 300,
   "hasPower": true,
   "hasLiquids": true,
+  "hasItems": true,
   "liquidCapacity": 16,
+  "itemCapacity": 12,
   "ambientSound": "freezer",
   "ambientSoundVolume": 0.03,
   "craftEffect": {
@@ -19,18 +21,33 @@
         "paticles": 6,
         "colorFrom": "ffffffff",
         "colorTo": "59f2fdff",
-        "length": 8,
-        "iterp": "circleOut",
+        "length": 30,
+        "interp": "circleOut",
         "sizeInterp": "circleIn"
+      },
+      {
+        "type": "ParticleEffect",
+        "paticles": 1,
+        "sizeFrom": 3,
+        "sizeTo": 20,
+        "lifetime": 60,
+        "colorFrom": "ccffff88",
+        "colorTo": "ccfff800",
+        "length": 0,
+        "intert": "circleOut",
+        "sizeInterp": "circleOut"
       },
       {
         "type": "waveEffect",
         "colorFrom": "59f2fdff",
         "colorTo": "59f2fdff",
-        "sizeTo": 20,
+        "sizeFrom": 20,
+        "sizeTo": 0,
         "lifetime": 60,
         "sides": 6,
-        "interp": "reverse"
+        "strokeFrom": 0,
+        "strokeTo": 2,
+        "interp": "expOut"
       }
     ]
   },
@@ -54,6 +71,9 @@
   "outputItem": "cryonite/6",
   "consumes": {
     "power": 3,
+    "items": [
+      "cryocrystal/3"
+    ],
     "liquids": [
       "water/0.1"
     ]
