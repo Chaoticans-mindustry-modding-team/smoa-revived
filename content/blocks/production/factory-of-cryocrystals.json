@@ -6,7 +6,9 @@
   "craftTime": 60,
   "hasPower": true,
   "hasLiquids": true,
+  "hasItems": true,
   "liquidCapacity": 25,
+  "itemCapacity": 12,
   "ambientSound": "freezer",
   "ambientSoundVolume": 0.04,
   "craftEffect": {
