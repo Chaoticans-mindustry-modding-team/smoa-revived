@@ -4,6 +4,8 @@
   "details": "originally \"Factory of Titanit\" from old smoa",
   "hideDetails": false,
   "researchCostMultiplier": 0.1,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.1,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
