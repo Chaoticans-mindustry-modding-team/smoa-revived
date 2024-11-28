@@ -1,0 +1,69 @@
+{
+  "name": "Cryonic Chiller",
+  "description": "Dissolves cryocrystals in water and slowly precipitates them out as cryonite.",
+  "details": "betamindy pls dont kill me",
+  "hideDetails": false,
+  "type": "GenericCrafter",
+  "size": 2,
+  "craftTime": 180,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 16,
+  "ambientSound": "freezer",
+  "ambientSoundVolume": 0.03,
+  "craftEffect": {
+    "type": "MultiEffect",
+    "effects": [
+      {
+        "type": "ParticleEffect",
+        "paticles": 6,
+        "colorFrom": "ffffffff",
+        "colorTo": "59f2fdff",
+        "length": 8,
+        "iterp": "circleOut",
+        "sizeInterp": "circleIn"
+      },
+      {
+        "type": "waveEffect",
+        "colorFrom": "59f2fdff",
+        "colorTo": "59f2fdff",
+        "sizeTo": 20,
+        "lifetime": 60,
+        "sides": 6,
+        "interp": "reverse"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "water",
+        "alpha": 1
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "outputItem": "cryonite/6",
+  "consumes": {
+    "power": 3,
+    "liquids": [
+      "water/0.1"
+    ]
+  },
+  "requirements": [
+    "graphite/160",
+    "plastanium/60",
+    "lead/90",
+    "silicon/140"
+  ],
+  "category": "crafting",
+  "research": "factory-of-cryocrystals"
+}
