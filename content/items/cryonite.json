@@ -1,0 +1,13 @@
+{
+  "name": "Cryonite",
+  "description": "A compressed cryocrystal concentrate. Explosive, but cold.",
+  "details": "betamindy pls dont kill me",
+  "hideDetails": false,
+  "color": "59f2fdff",
+  "explosiveness": 4.7,
+  "cost": 9,
+  "research": {
+    "parent": "titanium"
+  },
+  "hardness": 0.1
+}
