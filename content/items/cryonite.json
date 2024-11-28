@@ -3,11 +3,12 @@
   "description": "A compressed cryocrystal concentrate. Explosive, but cold.",
   "details": "betamindy pls dont kill me",
   "hideDetails": false,
-  "color": "59f2fdff",
-  "explosiveness": 4.7,
-  "cost": 9,
+  "color": "ccfff8ff",
+  "explosiveness": 6,
+  "flammability": -1,
+  "cost": 10,
   "research": {
-    "parent": "titanium"
+    "parent": "cryocrystal"
   },
-  "hardness": 0.1
+  "hardness": 3
 }
