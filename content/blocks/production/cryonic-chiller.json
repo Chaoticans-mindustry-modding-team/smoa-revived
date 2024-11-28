@@ -47,7 +47,7 @@
         "sides": 6,
         "strokeFrom": 0,
         "strokeTo": 2,
-        "interp": "expOut"
+        "interp": "sineIn"
       }
     ]
   },
