@@ -8,7 +8,7 @@
   "hasLiquids": true,
   "liquidCapacity": 25,
   "ambientSound": "freezer",
-  "ambientSoundVolume": 0.08,
+  "ambientSoundVolume": 0.04,
   "craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
