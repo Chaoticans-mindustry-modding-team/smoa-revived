@@ -7,13 +7,16 @@
   "hasPower": true,
   "hasLiquids": true,
   "liquidCapacity": 25,
+  "ambientSound": "freezer",
+  "ambientSoundVolume": 0.08,
   "craftEffect": {
     "type": "ParticleEffect",
     "particles": 6,
     "colorFrom": "ffffffff",
     "colorTo": "59f2fdff",
     "length": 8,
-    "sizeInterp": "slope",
+    "interp": "circleOut",
+    "sizeInterp": "circleIn",
     "region": "smoa-r-starbullet"
   },
   "drawer": {
